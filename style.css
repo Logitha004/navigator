@@ -1,0 +1,63 @@
+.section {
+    padding: 100px 40px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .section:nth-child(even) {
+    background-color: #e9ecef;
+  }
+  
+  .section h2, .section h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .section p, .section ul {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  ul {
+    list-style-type: square;
+    text-align: left;
+    margin: auto;
+    padding-left: 20px;
+  }
+/* Navigation Bar Styling */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #222;
+    padding: 15px 0;
+    z-index: 1000;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s, border-bottom 0.3s;
+    padding-bottom: 5px;
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc00;
+    border-bottom: 2px solid #ffcc00;
+  }
+  
+  nav.scrolled {
+    background-color: #0d6efd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+    
